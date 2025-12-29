@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { openai } from '@/lib/openai'
+import { OpenAI } from "openai";
 import pdf from "pdf-parse";
 import mammoth from "mammoth";
 
